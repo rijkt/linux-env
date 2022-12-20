@@ -1,0 +1,12 @@
+
+# Angular
+--ignore-directory=is:.angular
+--ignore-directory=is:dist
+--ignore-file=ext:mjs
+--ignore-file=ext:cjs
+--ignore-file=ext:map
+--type-set=ts:ext:ts
+--type-set=tsdef:match:/.+\.d\.ts/
+
+#IntelliJ
+--ignore-directory=is:.idea

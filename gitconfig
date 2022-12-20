@@ -1,0 +1,21 @@
+[include]
+    path=~/.gitconfig-email # kept out of vcs
+[user]
+    name = Pascal Ellenberger
+[core]
+    pager = delta # https://github.com/dandavison/delta
+    autocrlf = input # replace crlf with lf when commiting
+    editor = emacs
+[init]
+    defaultBranch = main
+
+# delta configuration
+[interactive]
+    diffFilter = delta --color-only
+[delta]
+    navigate = true    # use n and N to move between diff sections
+    light = false      # set to true if you're in a terminal w/ a light background color
+[merge]
+    conflictstyle = diff3
+[diff]
+    colorMoved = default
