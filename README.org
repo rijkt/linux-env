@@ -1,7 +1,7 @@
 #+TITLE: README
 #+AUTHOR: Pascal Ellenberger
 * Purpose
-This repositories holds configuration files and setup to share between my linux environments.
+This repository holds configuration files and setup scripts to share between my (Arch) Linux environments.
 
 * Setup
 ** Files to create
