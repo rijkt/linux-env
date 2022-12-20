@@ -1,0 +1,12 @@
+#+TITLE: README
+#+AUTHOR: Pascal Ellenberger
+* Purpose
+This repositories holds configuration files and setup to share between my linux environments.
+
+
+* TODO COMMENT
+add setup (files to create, packages to install, scripts for linking, package installation)
+
+
+
+
