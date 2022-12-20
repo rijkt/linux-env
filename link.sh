@@ -1,6 +1,7 @@
 #!/bin/bash
-set -xe
+set -x
 
-ln ackrc ~/.ackrc
-ln bashrc ~/.bashrc
-ln gitconfig ~/.gitconfig
+ln -s $PWD/ackrc ~/.ackrc
+ln -s $PWD/albertignore ~/.albertignore
+ln -s $PWD/bashrc ~/.bashrc
+ln -s $PWD/gitconfig ~/.gitconfig
