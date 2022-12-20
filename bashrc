@@ -17,9 +17,14 @@ export CHROME_BIN=/usr/bin/chromium
 export HISTFILESIZE=
 export HISTSIZE=
 
+# completions
 source /usr/share/nvm/init-nvm.sh
 source /usr/share/fzf/key-bindings.bash
 source /usr/share/fzf/completion.bash
 source /usr/share/bash-completion/completions/git
+source /usr/share/bash-completion/completions/kubectl
+source /usr/share/bash-completion/completions/docker
+source /usr/share/bash-completion/completions/systemctl
 
+# system-specific extensions
 source ~/.bashrc.d/*
