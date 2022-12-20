@@ -3,10 +3,18 @@
 * Purpose
 This repositories holds configuration files and setup to share between my linux environments.
 
+* Setup
+** Files to create
+- system-specific bash config files in ~/.bashrc.d/
+- ~/.gitconfig-email with user.email configuration
 
-* TODO COMMENT
-add setup (files to create, packages to install, scripts for linking, package installation)
+** Packages
+Install pakku first, then run
+#+BEGIN_SRC bash
+pakku -S `cat package-list.txt` # no stdin support, use cat
+#+END_SRC
 
-
-
-
+** Link 
+#+BEGIN_SRC bash
+bash link.sh
+#+END_SRC

@@ -1,0 +1,11 @@
+ack
+git
+docker
+git-delta
+fzf
+fd
+lsd
+bat
+emacs
+albert
+nerd-fonts-complete
