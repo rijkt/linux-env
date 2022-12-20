@@ -9,3 +9,4 @@ bat
 emacs
 albert
 nerd-fonts-complete
+nvm

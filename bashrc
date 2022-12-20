@@ -9,6 +9,7 @@ alias s='git status'
 alias d='git diff'
 alias pacman='pacman --color=auto'
 alias pakku='pakku --color=auto'
+alias ..='cd ..'
 
 # variables
 export PS1="[\u@\[$(tput sgr0)\]\[\033[38;5;99m\]\h\[$(tput sgr0)\] \W] \$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/')\\$ \[$(tput sgr0)\]"
@@ -50,5 +51,6 @@ complete -o bashdefault -o default -F _ng_yargs_completions ng
 ###-end-ng-completions-###
 
 # system-specific extensions
-source ~/.bashrc.d/*
-
+if [[ -f ~/.bashrc.d/ ]]; then
+    source ~/.bashrc.d/*
+fi
