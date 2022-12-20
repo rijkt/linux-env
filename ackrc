@@ -1,4 +1,3 @@
-
 # Angular
 --ignore-directory=is:.angular
 --ignore-directory=is:dist
