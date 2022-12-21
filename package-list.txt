@@ -8,5 +8,6 @@ lsd
 bat
 emacs
 albert
+ttf-fira-code
 nerd-fonts-complete
 nvm
