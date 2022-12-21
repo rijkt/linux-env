@@ -22,10 +22,6 @@ export HISTSIZE=
 source /usr/share/nvm/init-nvm.sh
 source /usr/share/fzf/key-bindings.bash
 source /usr/share/fzf/completion.bash
-source /usr/share/bash-completion/completions/git
-source /usr/share/bash-completion/completions/kubectl
-source /usr/share/bash-completion/completions/docker
-source /usr/share/bash-completion/completions/systemctl
 # output of 'ng completion script'
 ###-begin-ng-completions-###
 _ng_yargs_completions()
