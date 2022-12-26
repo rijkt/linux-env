@@ -8,7 +8,7 @@
    '("fe1c13d75398b1c8fd7fdd1241a55c286b86c3e4ce513c4292d01383de152cb7" default)) ; dracula
  '(inhibit-startup-screen t)
  '(org-agenda-files nil)
- '(package-selected-packages '(clojure-mode cider dracula-theme which-key-mode))
+ '(package-selected-packages '(clojure-mode cider dracula-theme which-key-mode rust-mode))
  '(safe-local-variable-values '((cider-clojure-cli-global-options . -A:dev))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
