@@ -17,6 +17,9 @@ export DOCKER_BUILDKIT=1
 export CHROME_BIN=/usr/bin/chromium
 export HISTFILESIZE=
 export HISTSIZE=
+# use fd for fzf to respect .gitignore
+export FZF_DEFAULT_COMMAND='fd --type f --strip-cwd-prefix'
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 
 # completions
 source /usr/share/nvm/init-nvm.sh
