@@ -10,6 +10,8 @@
  '(org-agenda-files nil)
  '(package-selected-packages
    '(company rustic clojure-mode cider dracula-theme which-key-mode rustic-mode lsp-mode flycheck))
+   ; todo: fix package auto-installation
+   ; todo: set which-key minor mode
  '(safe-local-variable-values '((cider-clojure-cli-global-options . -A:dev))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
