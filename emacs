@@ -29,3 +29,4 @@
 
 (put 'upcase-region 'disabled nil)
 (global-set-key [(control z)] 'undo) ; disable suspend
+(setq-default indent-tabs-mode nil) ; use spaces instead of tabs
