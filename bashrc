@@ -28,6 +28,7 @@ export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 source /usr/share/nvm/init-nvm.sh
 source /usr/share/fzf/key-bindings.bash
 source /usr/share/fzf/completion.bash
+source ~/git-checkout/gradle-completion/gradle-completion.bash
 # output of 'ng completion script'
 ###-begin-ng-completions-###
 _ng_yargs_completions()
