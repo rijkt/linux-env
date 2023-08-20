@@ -11,4 +11,4 @@ albert
 ttf-fira-code
 bash-completion
 nerd-fonts-complete
-nvm
+etckeeper
