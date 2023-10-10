@@ -7,11 +7,10 @@
  '(custom-safe-themes
    '("fe1c13d75398b1c8fd7fdd1241a55c286b86c3e4ce513c4292d01383de152cb7" default))
  '(inhibit-startup-screen t)
+ '(ispell-dictionary "de_CH")
  '(org-agenda-files nil)
  '(package-selected-packages
-   '(company rustic clojure-mode cider dracula-theme which-key-mode rustic-mode lsp-mode flycheck))
-   ; todo: fix package auto-installation
-   ; todo: set which-key minor mode
+   '(lsp-java magit which-key company rustic clojure-mode cider dracula-theme which-key-mode rustic-mode lsp-mode flycheck))
  '(safe-local-variable-values '((cider-clojure-cli-global-options . -A:dev))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -30,3 +29,7 @@
 (put 'upcase-region 'disabled nil)
 (global-set-key [(control z)] 'undo) ; disable suspend
 (setq-default indent-tabs-mode nil) ; use spaces instead of tabs
+
+; hooks
+(add-hook 'java-mode-hook #'lsp)
+(add-hook 'org-mode-hook 'flyspell-mode)
