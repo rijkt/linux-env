@@ -33,3 +33,6 @@
 ; hooks
 (add-hook 'java-mode-hook #'lsp)
 (add-hook 'org-mode-hook 'flyspell-mode)
+
+;; org mode
+(setq org-log-done 'time)
