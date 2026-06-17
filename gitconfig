@@ -5,21 +5,27 @@
 [core]
     pager = delta # https://github.com/dandavison/delta
     autocrlf = input # replace crlf with lf when commiting
-    editor = emacs
+    editor = nvim
 [init]
     defaultBranch = main
 [push]
     autoSetupRemote = true
 
-# delta configuration
 [interactive]
-    diffFilter = delta --color-only
+    diffFilter = delta --color-only # delta configuration
 [delta]
     navigate = true    # use n and N to move between diff sections
     light = false      # set to true if you're in a terminal w/ a light background color
 [merge]
-    conflictstyle = diff3
+    conflictstyle = diff3 # delta configuration
 [diff]
     colorMoved = default
+[pull]
+	rebase = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
 [sequence]
 	editor = interactive-rebase-tool
