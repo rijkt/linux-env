@@ -1,7 +1,7 @@
 [include]
     path=~/.gitconfig-email # kept out of vcs
 [user]
-    name = Pascal Ellenberger
+	name = Pascal Ellenberger
 [core]
     pager = delta # https://github.com/dandavison/delta
     autocrlf = input # replace crlf with lf when commiting
@@ -21,3 +21,5 @@
     conflictstyle = diff3
 [diff]
     colorMoved = default
+[sequence]
+	editor = interactive-rebase-tool
