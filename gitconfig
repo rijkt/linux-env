@@ -1,25 +1,25 @@
 [include]
-    path=~/.gitconfig-email # kept out of vcs
+  path=~/.gitconfig-email # kept out of vcs
 [user]
 	name = Pascal Ellenberger
 [core]
-    pager = delta # https://github.com/dandavison/delta
-    autocrlf = input # replace crlf with lf when commiting
-    editor = nvim
+  pager = delta # https://github.com/dandavison/delta
+  autocrlf = input # replace crlf with lf when commiting
+	editor = nvim
 [init]
-    defaultBranch = main
+  defaultBranch = main
 [push]
-    autoSetupRemote = true
+  autoSetupRemote = true
 
 [interactive]
-    diffFilter = delta --color-only # delta configuration
+  diffFilter = delta --color-only # delta configuration
 [delta]
-    navigate = true    # use n and N to move between diff sections
-    light = false      # set to true if you're in a terminal w/ a light background color
+  navigate = true    # use n and N to move between diff sections
+  light = false      # set to true if you're in a terminal w/ a light background color
 [merge]
-    conflictstyle = diff3 # delta configuration
+  conflictstyle = diff3 # delta configuration
 [diff]
-    colorMoved = default
+  colorMoved = default
 [pull]
 	rebase = true
 [filter "lfs"]
