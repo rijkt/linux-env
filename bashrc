@@ -14,12 +14,14 @@ alias ..='cd ..'
 export PS1="[\u@\[$(tput sgr0)\]\[\033[38;5;99m\]\h\[$(tput sgr0)\] \W] \$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/')\\$ \[$(tput sgr0)\]"
 export HISTFILESIZE=
 export HISTSIZE=
-export PATH="$PATH:$HOME/.cargo/bin:$HOME/.local/bin:$HOME/.config/emacs/bin:$PATH:"
-# use fd for fzf to respect .gitignore
+export PATH="$PATH:$HOME/.cargo/bin:$HOME/.local/bin:$PATH:"
+## use fd for fzf to respect .gitignore
 export FZF_DEFAULT_COMMAND='fd --type f --strip-cwd-prefix'
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
-export npm_config_prefix="$HOME/.local"
-
+## set the one true editor
+export VISUAL=nvim
+export EDITOR="$VISUAL"
+export GIT_EDITOR="$VISUAL"
 
 # completions
 source /usr/share/fzf/key-bindings.bash
